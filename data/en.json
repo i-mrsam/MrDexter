@@ -65,7 +65,7 @@
         },
         {
             "id": "leaderboard",
-            "title": "<i class='fa-solid fa-trophy'></i> Global Hacker Leaderboard",
+            "title": "<i class='fa-solid fa-trophy'></i> Discovered prompts panel",
             "content": "<div class=\"card glass-panel\"><p>Submit your successful Prompt Injection payloads. (Simulation purposes only)</p><div class=\"submission-form\" style=\"background: rgba(0, 255, 204, 0.05); padding: 15px; border: 1px solid var(--accent-cyan); border-radius: 8px;\"><h4 style=\"margin-bottom: 15px;\"><i class=\"fa-solid fa-code-commit\"></i>Submit Payload</h4><input type=\"text\" id=\"lb-name\" placeholder=\"Hacker Name\" class=\"terminal-input\" style=\"width: 100%; margin-bottom: 10px;\"> <input type=\"text\" id=\"lb-target\" placeholder=\"Target Model (e.g. ChatGPT)\" class=\"terminal-input\" style=\"width: 100%; margin-bottom: 10px;\"> <textarea id=\"lb-payload\" placeholder=\"Malicious Payload...\" class=\"terminal-input\" style=\"width: 100%; height: 80px; margin-bottom: 10px;\"></textarea><button onclick=\"submitLeaderboard()\" class=\"cyber-btn\" style=\"width: 100%;\">Submit Technique</button></div><h4 style=\"margin-top: 30px; color: var(--accent-red);\">Recent Submissions:</h4><table class=\"audit-table\" id=\"leaderboard-table\" style=\"width: 100%; margin-top: 15px;\"><thead><tr><th>Hacker</th><th>Target</th><th>Payload</th><th>Date</th></tr></thead><tbody id=\"lb-tbody\"></tbody></table></div>"
         },
         {

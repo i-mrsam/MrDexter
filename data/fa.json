@@ -65,7 +65,7 @@
         },
         {
             "id": "leaderboard",
-            "title": "<i class='fa-solid fa-trophy'></i> تابلوی افتخارات جهانی هکرها",
+            "title": "<i class='fa-solid fa-trophy'></i> تابلوی پرامپت های کشف شده",
             "content": "<div class=\"card glass-panel\"><p>جدیدترین Payloadها یا پرامپت اینجکشن‌های کشف شده خود را ثبت کنید. (صرفاً جهت شبیه‌سازی)</p><div class=\"submission-form\" style=\"background: rgba(0, 255, 204, 0.05); padding: 15px; border: 1px solid var(--accent-cyan); border-radius: 8px;\"><h4 style=\"margin-bottom: 15px;\"><i class=\"fa-solid fa-code-commit\"></i>ثبت تکنیک جدید</h4><input type=\"text\" id=\"lb-name\" placeholder=\"نام هکر\" class=\"terminal-input\" style=\"width: 100%; margin-bottom: 10px;\"> <input type=\"text\" id=\"lb-target\" placeholder=\"مدل هدف (مثلا ChatGPT)\" class=\"terminal-input\" style=\"width: 100%; margin-bottom: 10px;\"> <textarea id=\"lb-payload\" placeholder=\"متن کامل پی‌لود مخرب...\" class=\"terminal-input\" style=\"width: 100%; height: 80px; margin-bottom: 10px;\"></textarea><button onclick=\"submitLeaderboard()\" class=\"cyber-btn\" style=\"width: 100%;\">ثبت در تابلوی افتخارات</button></div><h4 style=\"margin-top: 30px; color: var(--accent-red);\">ثبت‌های اخیر:</h4><table class=\"audit-table\" id=\"leaderboard-table\" style=\"width: 100%; margin-top: 15px;\"><thead><tr><th>هکر</th><th>تارگت</th><th>پی‌لود</th><th>تاریخ</th></tr></thead><tbody id=\"lb-tbody\"></tbody></table></div>"
         },
         {
