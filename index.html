@@ -45,6 +45,19 @@
 </head>
 <body>
 
+    <!-- Gooey SVG Filter -->
+    <svg style="width: 0; height: 0; position: absolute;">
+        <defs>
+            <filter id="goo-bg">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+            </filter>
+        </defs>
+    </svg>
+
+    <!-- Liquid Neural Network Canvas -->
+    <canvas id="neuralCanvas" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -1; pointer-events: none; filter: url(#goo-bg); opacity: 0.6;"></canvas>
+
     <!-- Animated Background -->
     <div class="bg-animation">
         <div class="glow-orb orb-1"></div>

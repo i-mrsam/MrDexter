@@ -69,7 +69,7 @@ body[dir="ltr"] {
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: -1;
+    z-index: -2;
     overflow: hidden;
     pointer-events: none;
 }
@@ -962,3 +962,4 @@ body[dir="rtl"] .markdown-body ul, body[dir="rtl"] .markdown-body ol {
     margin-top: 25px;
     margin-bottom: 15px;
 }
+
