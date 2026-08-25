@@ -81,6 +81,6 @@ This project aims to provide specialized training in hacking, security, and coun
 ![](https://img.shields.io/badge/Status-Active%20&%20Updated-FF5500?style=for-the-badge)
 ![](https://mrdexter.ir/svg/TheCoffee.svg)
 
-![Repo Badge](https://visitor-badge.laobi.icu/badge?page_id=null-err0r.MrDexter) 
+![Repo Badge](https://visitor-badge.laobi.icu/badge?page_id=i-mrsam.MrDexter) 
 
 
